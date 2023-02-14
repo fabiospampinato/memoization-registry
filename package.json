@@ -22,7 +22,7 @@
     "leak"
   ],
   "dependencies": {
-    "mild-map": "^1.0.0"
+    "mild-map": "^1.1.0"
   },
   "devDependencies": {
     "fava": "^0.1.2",

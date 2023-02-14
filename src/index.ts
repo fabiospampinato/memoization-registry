@@ -63,6 +63,19 @@ class MemoizationRegistry<Keys extends unknown[], Value> {
 
     leaf.ref = undefined;
 
+    for ( let i = nodes.length - 1; i >= 0; i-- ) {
+
+      const node = nodes[i];
+
+      if ( node.ref ) break;
+      if ( node.size ) break;
+
+      const parent = nodes[i - 1] || this.#root;
+
+      parent.delete ( keys[i] );
+
+    }
+
   }
 
 }
