@@ -2,7 +2,7 @@
   "name": "memoization-registry",
   "repository": "github:fabiospampinato/memoization-registry",
   "description": "A generalized multi-key memoization solution that does not leak memory.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
