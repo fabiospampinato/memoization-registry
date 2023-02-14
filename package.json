@@ -1,0 +1,32 @@
+{
+  "name": "memoization-registry",
+  "repository": "github:fabiospampinato/memoization-registry",
+  "description": "A generalized multi-key memoization solution that does not leak memory.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "node --expose-gc test/index.js",
+    "prepublishOnly": "npm run clean && npm run compile && npm run test"
+  },
+  "keywords": [
+    "memoization",
+    "finalization",
+    "registry",
+    "memory",
+    "leak"
+  ],
+  "dependencies": {
+    "mild-map": "^1.0.0"
+  },
+  "devDependencies": {
+    "fava": "^0.1.2",
+    "tsex": "^2.1.0",
+    "typescript": "^4.9.5"
+  }
+}
