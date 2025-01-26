@@ -2,7 +2,7 @@
 /* IMPORT */
 
 import MildMap from 'mild-map';
-import type {Node} from '~/types';
+import type {Node} from './types';
 
 /* MAIN */
 

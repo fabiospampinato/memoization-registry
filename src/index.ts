@@ -2,8 +2,8 @@
 /* IMPORT */
 
 import MildMap from 'mild-map';
-import {isObject, isUndefined, last, traverse, weakize, unweakize} from '~/utils';
-import type {Node} from '~/types';
+import {isObject, isUndefined, last, traverse, weakize, unweakize} from './utils';
+import type {Node} from './types';
 
 /* MAIN */
 
