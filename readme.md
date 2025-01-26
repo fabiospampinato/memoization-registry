@@ -11,7 +11,7 @@ A generalized multi-key memoization solution that does not leak memory.
 ## Install
 
 ```sh
-npm install --save memoization-registry
+npm install memoization-registry
 ```
 
 ## Usage
